@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Design by foolishdeveloper.com -->
+    <title>user register</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/formstyle.css">
+
+</head>
+<body>
+     <form action="UserServlet" method="post">
+        <h3>Update profile</h3>
+
+        <label for="name">name</label>
+        <input type="text" name="name" placeholder="enter your name" id="name">
+
+        <label for="username">Email</label>
+        <input type="text" name="email" placeholder="Enter your email address" id="email">
+        
+         <label for="username">contact</label>
+        <input type="number" name="contactno" placeholder="Enter your mobile number" id="contact">
+        
+         <label for="username">address</label>
+        <input type="text" name="address" placeholder="Enter your address" id="address">
+
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="enter your user name" id="username">
+
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" id="password">
+        <input type="hidden" name="act" value="userRegisterAction">
+
+         <input type="submit" value="REGISTER">
+       
+    </form>
+</body>
+</html>
